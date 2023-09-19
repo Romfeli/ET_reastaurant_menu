@@ -62,7 +62,7 @@ function borrarpostre() {
 }
 function consultarpostre() {
 	numero=Number(document.getElementById('numeropostre1').value);
-	lista = document.getElementById('listapostres');
+	lista = document.getElementById('listapostre');
 	x=lista.getElementsByTagName('li');
 	document.getElementById('demo').innerHTML += '<strong>Plato selecionado: </strong>'+x[numero-1].innerHTML+'<br>';
 }
